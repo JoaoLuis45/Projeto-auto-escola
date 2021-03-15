@@ -129,6 +129,9 @@ section.conteudocapitulos ul li ul {
     border-radius: 10px;
     padding: 20px;
     width: 500px;
+    transition-duration: 2s;
+
+    
 }
 
 section.conteudocapitulos ul li:hover ul{
@@ -301,17 +304,87 @@ section.conteudomultas{
     color: #000;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 4rem;
+    justify-content: ;
+    align-items: ;
     font-family: Arial, Helvetica, sans-serif;
     height: auto;
-    width: 100%;
+    width: 90%;
+    padding: 30px;
+    margin: 0px 5%;
     
 }
 section.conteudomultas h1{
-    margin: 200px 0px;
+    font-size: 4rem;
+    margin-bottom: 30px;
 }
+section.conteudomultas h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+section.conteudomultas h3{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+section.conteudomultas p{
+   font-size: 1.5rem;
+   margin-bottom: 15px;
+}
+section.conteudomultas ul{
+    margin-left: 5%;
+    font-size: 1.8rem;
+}
+#agravamentos{
+    font-size: 1.5rem;
+}
+#tipos{
+    margin-left: 2%;
+}
+table{
+    margin: 30px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+    height: 300px;
+    margin-right: 10%;
+}
+
+th,td{
+    border: 1px solid black;
+}
+
+tbody td{
+    text-align: center;
+}
+
+div.conteudoetabela{
+    display: flex;
+    margin-bottom: 40px;
+
+}
+
+@media (max-width: 980px) {
+
+    table{
+        width: 300px;
+        margin-top: 200px;
+    }
+}
+@media (max-width: 700px) {
+    div.conteudoetabela{
+        display: flex;
+        flex-direction: column;
+    }
+    section.conteudomultas{
+        width: 100%;
+    }
+    table{
+        width: 300px;
+        
+        margin: auto;
+    }
+}
+
+
 
 
 
