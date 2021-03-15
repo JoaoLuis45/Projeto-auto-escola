@@ -60,6 +60,8 @@ header nav a.cabe:hover{background-color: #000;border-radius: 8px; box-shadow: 3
     header{flex-direction: column;}
     header img {margin-bottom: 15px;}
     header nav a.cabe{padding: 5px 10px; border-radius: 5px; margin: 0px 5px; font-size: 14px;}
+    header nav a:first-child{margin-left: 5px;}
+    header nav a:last-child{margin-right: 5px;}
 
 }
 /* -------------------------------------------------------------------IMAGEM DE FUNDO--------------------------------------------------------------------------------- */
